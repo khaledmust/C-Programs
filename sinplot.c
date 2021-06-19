@@ -1,10 +1,13 @@
+/*
+Creates a txt file with the values of the sine function and then ploted using GNUPlot.
+*/
 #include <stdio.h>
 #include <math.h>
 
 int main (void)
 {
     FILE *sinetxt;
-    sinetxt = fopen("C:\\Users\\Khaled\\Documents\\sineplot.txt", "w"); //Creating and writing a txt file
+    sinetxt = fopen("~\\sineplot.txt", "w"); //Creating and writing a txt file
 
     int values = 0;
     printf("Please enter the no of values you want: \n");
